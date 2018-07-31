@@ -1,0 +1,339 @@
+* {
+	margin: 0;
+	padding: 0;
+	word-wrap: break-word;
+}
+
+html,
+body,
+#app,
+.wrapper {
+	width: 100%;
+	height: 100%;
+	/*overflow: hidden;*/
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, "microsoft yahei", arial, STHeiTi, sans-serif;
+	color: #333333;
+}
+
+a {
+	text-decoration: none
+}
+
+.content {
+	background: none repeat scroll 0 0 #fff;
+	position: absolute;
+	left: 250px;
+	right: 0;
+	top: 70px;
+	bottom: 0;
+	width: auto;
+	padding: 20px;
+	box-sizing: border-box;
+	overflow-y: scroll;
+}
+
+.rt {
+	float: right;
+}
+
+.lt {
+	float: left;
+}
+
+.tableheader {
+	color: #333333;
+	border: red;
+}
+
+.crumbs {
+	margin-bottom: 20px;
+}
+
+.pagination {
+	margin: 10px 0;
+	text-align: right;
+}
+
+.plugins-tips {
+	padding: 20px 10px;
+	margin-bottom: 20px;
+}
+
+.el-button+.el-tooltip {
+	margin-left: 10px;
+}
+
+.el-table tr:hover {
+	background: #f6faff;
+}
+
+.mgb20 {
+	margin-bottom: 20px;
+}
+
+.move-enter-active,
+.move-leave-active {
+	transition: opacity .5s;
+}
+
+.move-enter,
+.move-leave {
+	opacity: 0;
+}
+
+
+/*BaseForm*/
+
+.form-box {
+	width: 600px;
+}
+
+.form-box .line {
+	text-align: center;
+}
+
+.el-time-panel__content::after,
+.el-time-panel__content::before {
+	margin-top: -7px;
+}
+
+
+/*Readme*/
+
+.ms-doc .el-checkbox__input.is-disabled+.el-checkbox__label {
+	color: #333;
+	cursor: pointer;
+}
+
+
+/*Upload*/
+
+.pure-button {
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.g-core-image-corp-container .info-aside {
+	height: 45px;
+}
+
+.picMaterial .upload-demo .el-upload-list {
+	z-index: 100;
+	position: absolute;
+	top: 0;
+	left: 122px;
+	padding: 0 10px 10px 10px;
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	border: 1px solid #ebeef5;
+	box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+	color: #303133;
+	min-width: 255px;
+}
+
+
+/*图片管理*/
+
+.material .upload-demo .el-upload-list {
+	z-index: 100;
+	position: absolute;
+	top: 0;
+	left: 122px;
+	padding: 0 10px 10px 10px;
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	border: 1px solid #ebeef5;
+	box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+	color: #303133;
+	min-width: 255px;
+}
+
+.el-upload--text .el-icon-upload {
+	font-size: 67px;
+	color: #97a8be;
+	margin: 40px 0 16px;
+	line-height: 50px;
+}
+
+.el-upload--text {
+	color: #97a8be;
+	font-size: 14px;
+	text-align: center;
+}
+
+.el-upload--text em {
+	font-style: normal;
+}
+
+.no-data {
+	text-align: center;
+	line-height: 30px;
+	color: #909191;
+}
+
+
+/*VueEditor*/
+
+.ql-container {
+	min-height: 400px;
+}
+
+.ql-snow .ql-tooltip {
+	transform: translateX(117.5px) translateY(10px) !important;
+}
+
+.editor-btn {
+	margin-top: 20px;
+}
+
+
+/*对话框*/
+
+.pic-dialog {
+	box-sizing: border-box;
+}
+
+.pic-dialog .el-dialog__header {
+	padding: 10px 15px;
+	font-size: 14px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.pic-dialog .el-dialog__title {
+	font-size: 14px;
+}
+
+.pic-dialog .el-dialog__headerbtn {
+	top: 15px;
+}
+
+.pic-dialog .el-dialog__body {
+	padding: 10px 15px;
+}
+
+.dialog-img-box .el-dialog__header {
+	padding: 10px 20px 5px;
+}
+
+.dialog-img-box .el-dialog__body {
+	padding: 10px 20px;
+}
+
+
+/*列表通用样式*/
+
+.handle-box {
+	overflow: hidden;
+}
+
+.handle-box {
+	margin-bottom: 20px;
+	padding-right: 20px;
+}
+
+.handle-box .box-icon {
+	margin-left: 20px;
+}
+
+.handle-box .item {
+	margin-right: 10px;
+}
+
+.handle-box .item label {
+	line-height: 26px;
+	font-size: 14px;
+}
+
+th {
+	color: #333333;
+}
+
+.handle-box .box-icon i {
+	font-size: 20px;
+	position: relative;
+	top: 5px;
+	cursor: pointer;
+	color: gray;
+}
+
+.handle-select {
+	width: 120px;
+}
+
+.handle-input {
+	width: 150px!important;
+	display: inline-block;
+}
+
+.chartBox {
+	width: 100%;
+	overflow: hidden;
+}
+
+.chartBox .el-card {
+	width: 18%;
+	float: left;
+	margin-right: 1.5%;
+	margin-bottom: 1.5%;
+}
+
+.chartBox .el-card .body p {
+	font-size: 16px;
+	line-height: 1.2;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.chartBox .el-card .body .image {
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-color: #F6F8F9;
+	padding-bottom: 56.25%;
+	display: block;
+	margin-top: 10px;
+}
+
+.chartBox .el-card .bottom .time {
+	font-size: 13px;
+	color: #999;
+}
+
+.chartBox .el-card .bottom .opera {
+	text-align: right;
+}
+
+.chartBox .el-card .bottom .opera i {
+	padding: 3px 3%;
+}
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: "";
+}
+
+.clearfix:after {
+	clear: both
+}
+
+.el-radio+.el-radio{
+  margin-left: 20px;
+  color: red;
+}
+.el-table th.gutter{
+  display: table-cell!important;
+} 
+th, td{   
+  background-clip: padding-box!important; /*背景被裁剪到内边距框*/    
+}

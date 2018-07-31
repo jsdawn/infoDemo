@@ -14,9 +14,9 @@ cnpm i
 cnpm run dev
 
 项目打包
-cnpm run build --dev  开发环境
-cnpm run build --qa   测试环境
-cnpm run build --prod 生产环境
+cnpm run build --dev  开发环境.
+cnpm run build --qa   测试环境.
+cnpm run build --prod 生产环境.
 
 
 ## 更新日志

@@ -9,7 +9,6 @@ import '@/icons'                              // api: http://www.iconfont.cn/
 import '@/assets/scss/index.scss'
 import httpRequest from '@/utils/httpRequest' // api: https://github.com/axios/axios
 import { isAuth } from '@/utils'
-import Config from './assets/js/config'
 import VueLazyLoad from 'vue-lazyload'
 import '@/vCharts'                            // api: https://v-charts.js.org
 
@@ -17,7 +16,7 @@ import '@/vCharts'                            // api: https://v-charts.js.org
 Vue.prototype.$axios = axios
 Vue.use(VueCookie)
 Vue.config.productionTip = false
-Vue.use(Config)
+
 Vue.use(VueLazyLoad, {
   error: require('./assets/img/loading404.png'),
   loading: require('./assets/img/loading.gif')

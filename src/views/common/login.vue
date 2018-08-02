@@ -93,6 +93,7 @@
       // 获取验证码
       getCaptcha () {
         this.dataForm.uuid = getUUID()
+        console.log(this.dataForm.uuid)
         this.captchaPath = this.$http.adornUrl(`/captcha.jpg?uuid=${this.dataForm.uuid}`)
       }
     }
